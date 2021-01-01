@@ -1,0 +1,39 @@
+*{margin: 0;padding: 0;}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+section#firstSection{background-image: url("abir image2.jpg");height: 625px;background-repeat: no-repeat;background-size: cover;}
+
+nav{font-family: 'Ubuntu', sans-serif;background: rgb(32 240 222 / 74%);padding: 5px 0px;}
+div.mainBlock{display: table;width: 1150px;margin: auto;}
+div.logoCorner{width: 220px;float: left;}
+div.logoCorner img{width: 100%;}
+div.listBlock{width: 927px;float: right;}
+div.listBlock ul#unOrderList{list-style: none;float: right;}
+div.listBlock ul#unOrderList li.singleList{display: inline-block;padding: 28px 0px;}
+div.listBlock ul#unOrderList li.singleList a{text-decoration: none;padding: 18px 35px;color: black;font-weight: 600;transition: all 0.5s;}
+div.listBlock ul#unOrderList li.singleList a:hover{color: rgb(236, 12, 12);}
+div.writeBlock{
+    width: 700px;
+    margin-left: 130px;
+    margin-top: 259px;
+}
+div.writeBlock div.letterBlock{color: #10ff00;font-family: 'Ubuntu', sans-serif;line-height: 68px;}
+div.writeBlock div.letterBlock p#paraName{
+    font-size: 26px;
+    font-weight: 700;
+}
+div.writeBlock div.letterBlock h1#nameTitle{
+    font-size: 53px;
+    font-weight: 800;
+}
+div.writeBlock div.letterBlock p#professionTitle{
+    font-size: 35px;
+    font-weight: 900;
+}
+
+
+
+
