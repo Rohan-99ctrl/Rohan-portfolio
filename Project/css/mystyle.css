@@ -1,0 +1,815 @@
+*{margin:0;padding:0;box-sizing: border-box;outline: none;}
+body{overflow-x: hidden;overflow-y: scroll;}
+
+section#firstSection{background:#f7f7f7;}                             
+div#topBar{width:1100px;margin:auto;padding:5px;}
+#phone{width: 197px;position: relative;bottom: 3px;left: 24px;color: brown;}
+#email{width: 288px;position: relative;bottom: 3px;left: 79px;color: brown;}
+#icon{width: 203px;position: relative;left: 418px;}
+.displayBar{display:inline-block;}
+a.link {
+    padding: 3px 20px;
+    font-size: 21px;
+    border-right: 2px solid #2b2b2b47;
+    }
+a#social{border-left: 2px solid #2b2b2b47;}
+	
+section#secondSection{border-bottom:3px solid orange;position: sticky;top: 0;z-index:1000;background: white;}
+nav{width:1100px;margin:auto;display:table;padding:13px 0px;}
+img{width:100%;}
+div#imageContent{width: 180px;float: left;position: relative;top: 3px;}
+menu#menuBar{float:right;width: 912px;position: relative;top: 0px;}
+ul.mainList{list-style:none;float:right;}
+ul.mainList li.disturb{display:inline-block;font-size: 17px;}
+ul.mainList li.disturb a {
+    padding: 16px 32px;
+    text-decoration:none;
+    display: block;
+    color:black;
+    transition:all 0.3s;
+    font-family:arial black;
+    }
+	
+ul.mainList li.disturb a i{margin-left:6px;}
+	
+nav li.disturb:hover a{color:red;}
+nav li.disturb:hover i#search{color:red;}
+
+
+ul.subMenu{list-style:none;width: 230px;background: white;position: absolute;top: 74px;transition:all 0.3s;
+           bottom: -166px;line-height: 5px;z-index:100;transform:scaleY(0);transform-origin:top;margin-left: -6px;}
+		   
+ul.mainList li.disturb:hover ul.subMenu{transform:scaleY(1);}
+		   
+ul.subMenu li{
+    padding: 0px 0px;
+}
+ul.subMenu li a{
+    font-size: 14px;
+}
+ul.subMenu li a:first-child{color:gray;}
+
+ul.subMenu li a:before{content:"";height: 2px;background: #fb5200;width: 0px;display: inline-block;
+                       margin-right: 7px;vertical-align: middle;opacity:0;transition:all 0.5s;}
+ul.subMenu li:hover a:before{width: 13px;opacity:1;color:gray;}
+
+
+
+ul.subMenu2{
+           list-style:none;
+           width: 290px;
+           background: white;
+           position: absolute;
+           top: 74px;
+           transition:all 0.3s;
+           bottom: -583px;
+           line-height: 5px;
+           z-index:100;
+           transform:scaleY(0);
+           transform-origin:top;
+           margin-left: -6px;
+           overflow-y: scroll;
+           height: 522px;
+           overflow-x: hidden;
+           }
+		   
+ul.mainList li.disturb:hover ul.subMenu2{transform:scaleY(1);}
+		   
+ul.subMenu2 li{
+    padding: 0px 0px;
+}
+ul.subMenu2 li a{
+    font-size: 14px;
+}
+ul.subMenu2 li a:first-child{color:gray;}
+
+ul.subMenu2 li a:before{content:"";height: 2px;background: #fb5200;width: 0px;display: inline-block;
+                       margin-right: 7px;vertical-align: middle;opacity:0;transition:all 0.5s;}
+ul.subMenu2 li:hover a:before{width: 13px;opacity:1;color:gray;}
+
+
+
+ul.subMenu3{list-style:none;width: 230px;background: white;position: absolute;top: 74px;transition:all 0.3s;
+           bottom: -96px;line-height: 5px;z-index:100;transform:scaleY(0);transform-origin:top;margin-left: -6px;}
+		   
+ul.mainList li.disturb:hover ul.subMenu3{transform:scaleY(1);}
+		   
+ul.subMenu3 li{
+    padding: 0px 0px;
+}
+ul.subMenu3 li a{
+    font-size: 14px;
+}
+ul.subMenu3 li a:first-child{color:gray;}
+
+ul.subMenu3 li a:before{content:"";height: 2px;background: #fb5200;width: 0px;display: inline-block;
+                       margin-right: 7px;vertical-align: middle;opacity:0;transition:all 0.5s;}
+ul.subMenu3 li:hover a:before{width: 13px;opacity:1;color:gray;}
+
+
+
+ul.subMenu4{list-style:none;width: 230px;background: white;position: absolute;top: 74px;transition:all 0.3s;
+           bottom: -135px;line-height: 5px;z-index:100;transform:scaleY(0);transform-origin:top;margin-left: -6px;}
+		   
+ul.mainList li.disturb:hover ul.subMenu4{transform:scaleY(1);}
+		   
+ul.subMenu4 li{
+    padding: 0px 0px;
+}
+ul.subMenu4 li a{
+    font-size: 14px;
+}
+ul.subMenu4 li a:first-child{color:gray;}
+
+ul.subMenu4 li a:before{content:"";height: 2px;background: #fb5200;width: 0px;display: inline-block;
+                       margin-right: 7px;vertical-align: middle;opacity:0;transition:all 0.5s;}
+ul.subMenu4 li:hover a:before{width: 13px;opacity:1;color:gray;}
+
+
+
+
+section#thirdSection{background-image:url("slider 3.jpg");background-repeat: no-repeat;background-size: cover;
+    height:560px;}
+div#blurContent{background:#0000005e;height:560px;}
+div#mainBlock{width:1100px;margin:auto;position: relative;}
+div.mainTitleBox{position: absolute;font-family: Arial, Helvetica, sans-serif;left: 18px;top: 103px;}
+div.mainTitleBox h1{font-weight:bold;font-size: 40px;color: white;top: 144px;left: 18px;width: 675px;text-transform: uppercase;line-height: 50px;}
+/* div.paraContent{width: 572px;} */
+div.mainTitleBox p{font-size: 20px;color: white;width: 572px;line-height: 32px;margin-top: 30px;}
+div.buttonTag{width: 236px;position: relative;top: 57px;}
+div.mainTitleBox div.buttonTag a{font-size: 20px;text-decoration: none;color: white;
+background: #ce7010;padding: 14px 19px;width: 150px;transition:all 0.4s;}
+div.mainTitleBox div.buttonTag a:hover{background:#252525;}
+
+
+
+
+
+
+
+section#fourthSection{padding:90px 0px;background:#eaeaea;}
+div.mainSecondBlock{width:1100px;margin:auto;overflow: hidden;}
+div.secondBlock{
+                width: 248px;;
+                text-align: center;
+                padding: 55px 10px;
+                background: white;
+                border:1px solid #d8d8d8;
+                transition:all 0.3s;
+                box-shadow: 1px 1px 4px 0px grey;
+                margin-right: 35px;
+                float: left;
+                }
+div.secondBlock:nth-child(2){background:#fb5200 ;color: white;}
+div.secondBlock:nth-child(2) div.firstIcon i{color: white;}
+div.secondBlock:nth-child(2) div.titleBar{color:white;}
+div.secondBlock:nth-child(2) div.paraBar p{color: white;}
+div.secondBlock:nth-child(2) a{color: white;}
+div.secondBlock:nth-child(2) .fa-chevron-right{color: white;}
+
+
+div.secondBlock:nth-child(3){}
+div.secondBlock:last-child{margin-right: 0px;}
+
+
+div.firstIcon{text-align: center;margin-bottom: 31px;}
+div.firstIcon i{font-size:35px;color:#e89703;}
+div.titleBar{
+    
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+	font-weight: bold;
+	color:#5f5858f7;
+}
+div.paraBar{
+    text-align: center;
+	margin-bottom: 21px
+}
+div.paraBar p{color:gray;width:204px;margin:auto;}
+
+
+div.secondBlock a{text-decoration:none;color:#e89703;font-size: 18px;}
+div.secondBlock i.fa-chevron-right{font-size:15px;color:#e89703;position:relative;left:4px;}
+
+
+div.secondBlock:hover{background: #fb5200;cursor:pointer;}
+div.secondBlock:hover .firstIcon i{color:white;}
+div.secondBlock:hover .titleBar{color:white;}
+div.secondBlock:hover .paraBar p{color:white;}
+div.secondBlock:hover a{color:white;}
+div.secondBlock:hover i.fa-chevron-right{color:white;} */
+
+
+
+
+
+
+/*=========================================
+FIFTH SECTION DESIGN START 
+========================================= */
+
+div.fivthSection {
+    padding: 74px 0px;
+}
+div.fivthSection {
+    padding: 74px 0px;
+}
+
+div.mainSecondBlock{}
+div.imageContainer{width:500px;float:left;}
+div.right{width:520px;float: right;cursor:pointer;}
+div.right2{width:520px;float: right;cursor:pointer;}
+div.right h1{font-size:32px;font-weight: bold;margin-top: 10px;margin-bottom: 17px;}
+div.right p{color:gray;font-size: 18px;margin-bottom: 26px;}
+ul.leftList{list-style:none;width: 215px;float: left;margin-bottom: 51px;}
+ul.leftList li{
+    margin-bottom: 16px;}
+ul.leftList li i{margin-right: 23px;}
+	
+ul.leftList li:hover{color:#fb5200;}
+ul.rightList{list-style:none;width: 215px;float: right;margin-bottom: 51px;}
+ul.rightList li{
+    margin-bottom: 16px;}
+ul.rightList li i{margin-right: 23px;}
+	
+ul.rightList li:hover{color:#fb5200;}
+
+div.lock button{padding: 12px 26px;
+    background: #fb5200;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+	border-radius:5px;
+	transition:all 0.5s;
+	border: 2px;}
+	
+div.lock button:hover{background:#252525;}
+
+/* =========================================
+FIFTH SECTION DESIGN END 
+=========================================*/
+
+
+/* =========================================
+SIXTH SECTION DESIGN START 
+=========================================*/
+
+
+section#sixthBlock{
+                   background-image: url("engineer2 photo.jpg");
+                   background-repeat:no-repeat;
+                   background-size:cover;
+                   background-position:center center;
+                   }
+div#bgColor{background:linear-gradient(#00000073, #00000073);padding: 61px;}
+
+div.userIcon{
+    width: 230px;
+    text-align: center;
+	display:inline-block;
+	margin-right: 56px;}
+	
+div.userIcon:last-child{margin-right:0px;}
+
+div.userIcon span{
+    color: white;
+    font-family: arial black;
+    font-size: 47px;
+    font-weight: 900;
+}
+div.userIcon h5{
+    color: white;
+    font-family: arial black;
+    font-size: 16px;
+    margin-top: 9px;
+    font-weight:900 ;
+}
+	
+div i.users{
+    font-size: 46px;
+    color: white;
+	position: relative;
+    bottom: 7px;}
+
+	
+/* =========================================
+SIXTH SECTION DESIGN END 
+=========================================*/
+
+
+/* =========================================
+SEVENTH SECTION DESIGN START 
+=========================================*/
+
+section#seventhSection{padding: 70px 0px;background:#f5f6f6;}
+	
+div.centerInformation{margin:auto;width: 501px;text-align: center;}
+div.centerInformation h2{font-size:43px;font-family: arial;margin-bottom: 19px;}
+div.centerInformation h2:after{
+    content:"";
+    position: absolute;
+    left: 48%;
+    width: 70px;
+    border-bottom: 4px solid #fb5200;
+    background:#fb5200;
+    margin-top: 57px;
+    }
+div.centerInformation p{color:gray;font-size: 20px;margin-bottom: 66px;margin-top: 25px;}
+
+div.fixedWidth{width: 237px;display: inline-block;margin-right: 46px;}
+div.fixedWidth:last-child{margin-right:0px;}
+
+div.fixedWidth div.postImage{}
+div.fixedWidth div.postImage img{
+    margin-bottom: 15px;}
+
+div.fixedWidth div.postInfo{}
+div.fixedWidth div.postInfo h3{
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-family: arial;
+    }
+div.fixedWidth div.postInfo p{
+    color: gray;
+    font-size: 18px;
+    line-height: 24px;}
+
+
+/* =========================================
+SEVENTH SECTION DESIGN END 
+=========================================*/
+
+
+/* =========================================
+EIGHTH SECTION DESIGN START 
+=========================================*/
+
+
+
+section#eighthSection{padding: 70px 0px;background:white;}
+div#extraWidth{background:#f5f6f6;width: 1135px;margin: auto;}
+div.dubliket{
+    width: 1100px;
+    margin: auto;
+}
+div.planList{
+    width: 340px;
+    background:#ffffff;
+    border:1px solid #eaeaea;
+    border-radius:5px;
+    padding: 31px;
+    display:inline-block;
+	margin-right: 36px;}
+div.planList:last-child{margin:0px;}
+div.lockTwo button{padding: 12px 26px;
+    background: #fb5200;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+	border-radius:5px;
+	transition:all 0.5s;
+	border: 2px;
+margin-top: 30px;}
+	
+div.lockTwo button:hover{background:#252525;}
+
+div.planList h3{font-size: 28px;font-family: arial;margin-bottom: 6px;}
+div.planList h1{
+    font-size: 47px;
+    font-family: arial black;
+    margin-bottom: 14px;}
+
+span{font-size: 24px;}
+ul.listITag{list-style:none;line-height: 36px;}
+ul.listITag li{
+    color: gray;
+    font-size: 18px;}
+i.fas.fa-check {
+    margin-right: 15px;
+    font-size: 15px;
+    color: #fb5200;}
+
+
+/* =========================================
+EIGHTH SECTION DESIGN END 
+=========================================*/
+
+
+/* ========================================
+NINTH SECTION DESIGN START =========================================*/
+	
+section#ninthSection{background:white;position: relative;padding: 21px 0px;}
+
+div#halfBlockCover{
+    background: url("single block photo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    float: left;
+    height: 446px;
+    color: white;
+    margin-bottom: 85px;
+    }
+
+div#widthContent {
+    width: 50%;
+    float: right;
+    background: #0F0C0C;
+    color: white;
+    font-family: arial;
+    margin-bottom: 85px;
+    }
+	
+	.titleWrapper {
+    width: 516px;
+    padding: 35px 25px 13px 43px;
+    margin-bottom: 29px;
+    }
+
+.titleWrapper h1 {
+    padding-bottom: 18px;
+    font-size: 26px;}
+
+.titleWrapper p{line-height: 28px;}
+
+.fourthAllBlock {
+    width: 328px;
+    padding-left: 43px;
+    display: inline-block;
+    margin-bottom: 57px;}
+
+.supportTeam {
+    width: 52px;
+    float: left;}
+	
+.supportTeam i#support{font-size: 40px;color:#fb5200;}
+
+.smallBlock {
+    padding-left: 0px;
+    width: 199px;
+    line-height: 32px;
+    float: right;
+   }
+   
+.smallBlock h2{
+    font-size: 21px;
+    margin-bottom: 13px;
+    width: 229px;
+	transition:all 0.3s;}
+
+.smallBlock:hover h2{color:#fb5200;cursor:pointer;}	
+
+.smallBlock p{
+    font-size: 17px;
+    line-height: 26px;} 
+
+
+/* ========================================
+NINTH SECTION DESIGN START 
+=========================================*/
+
+
+/* ========================================
+TENTH SECTION DESIGN START 
+=========================================*/
+
+   
+section#tenthSection {padding: 86px 0px;}
+
+div.borderBlock{width:240px;border:1px solid #eaeaea;display:inline-block;margin-right: 40px;}
+div.borderBlock:last-child{margin-right:0px;}
+
+div.imageClass{width: 240px;}
+div.titleOrPara{width: 240px;text-align: center;margin-top: 2px;}
+div.titleOrPara h2{
+    font-family: arial;
+    font-size: 21px;}
+div.titleOrPara p{
+    color: gray;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    }
+	
+
+div.lockThree{width: 100%;text-align: center;margin-top: 50px;}
+
+div.lockThree button{padding: 12px 26px;
+    background:#252525;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+	border-radius:5px;
+	transition:all 0.5s;
+	border: 2px;}
+	
+div.lockThree button:hover{background: #fb5200;}
+
+div.circleIcon{position: relative;
+    left: 0px;
+    bottom: 70px;
+    text-align: center;}
+	
+div.circleIcon a{
+    background: red;
+    padding: 7px;
+    color: white;
+    border-radius:100%;
+    margin-right: 8px;
+	transition:all 0.4s;}
+	
+div.circleIcon a:first-child{background:#3b5998;opacity:0;transition:all 1.20s;}
+div.circleIcon a:nth-child(2){background:#00acee;opacity:0;transition:all 0.90s;}
+div.circleIcon a:nth-child(3){background:#db4a39;opacity:0;transition:all 0.60s;}
+div.circleIcon a:last-child{background:#0e76a8;opacity:0;transition:all 0.20s;}
+
+div.circleIcon a:hover{background:white;color:green;}
+
+div.borderBlock:hover div.circleIcon a:first-child{transform:translateY(20px);opacity:1;}
+div.borderBlock:hover div.circleIcon a:nth-child(2){transform:translateY(20px);opacity:1;}
+div.borderBlock:hover div.circleIcon a:nth-child(3){transform:translateY(20px);opacity:1;}
+div.borderBlock:hover div.circleIcon a:last-child{transform:translateY(20px);opacity:1;}
+
+/* ========================================
+TENTH SECTION DESIGN START 
+=========================================*/
+
+
+/* ========================================
+ELEVENTH SECTION DESIGN START 
+=========================================*/
+
+section#eleventhSection{background: #dddddd75;padding: 96px 0px;}
+.relativeContent {
+                  width: 347px;
+                  position: relative;
+                  height: 281px;
+                  overflow:hidden;
+                  display:inline-block;
+                  margin-bottom: 32px;
+                  margin-right: 25px;
+                  }
+				  
+.relativeContent:nth-child(3){margin-right:0px;}
+.relativeContent:last-child{margin-right:0px;}
+
+.relativeContent:nth-child(4){margin-bottom:0px;}
+.relativeContent:nth-child(5){margin-bottom:0px;}
+.relativeContent:last-child{margin-bottom:0px;}
+
+				
+div.fontStyle{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -108px;
+    bottom: 0px;
+    padding-left: 24px;
+    transition:all 0.2s;
+    background: linear-gradient(#00000005, #000000db);
+}
+
+div.fontStyle h3 {
+    left: 0;
+    font-size: 16px;
+    font-family: arial;
+    font-weight: 600;
+    line-height: 24px;
+	color:white;
+    width: 335px;
+    }
+    
+div.fontStyle span {
+
+    font-size: 17px;
+    line-height: 30px;
+    text-decoration: underline;
+    font-weight: bold;
+	color:white;
+    }
+div.fontStyle a{text-decoration:none;font-weight:bold;color: white;
+                margin-right:25px;position: relative;left: -187px;
+				opacity: 0;line-height: 53px;transition:all 0.3s;}
+				
+.relativeContent:hover div.fontStyle{padding-bottom: 30px;position: relative;
+                                     top: -165px;}
+				
+.relativeContent:hover div.fontStyle a{position: relative;left: 0px;transform:translateX(0px);opacity:1;}				
+
+
+/* ========================================
+ELEVENTH SECTION DESIGN END 
+=========================================*/
+
+/* ========================================
+TWELVTH SECTION DESIGN START 
+=========================================*/
+
+section#twelvethSection{padding: 85px 0px;padding-bottom: 27px;}
+div.border{width: 325px;border:1px solid #eaeaea;display:inline-block;margin-right: 55px;}
+div.border:last-Child{margin:0px;}
+
+div.img {width: 325px;overflow:hidden;}
+div.img a img{transition:all 0.5s;}
+div.img a img:hover{transform:scale(1.2);}
+
+div.ulLi{width: 100%;padding: 26px;}
+div.ulLi ul{list-style:none;margin-top: 0px;position: relative;}
+div.ulLi ul li{display:inline-block;margin-right: 16px;}
+div.ulLi ul li:last-child{margin:0;}
+div.ulLi ul li a:after{content:"";position: absolute;left: 35%;bottom: 8px;width: 19px;background: #fb5200;border-bottom: 2px solid #fb5200;}
+
+div.ulLi ul li a{text-decoration:none;color:gray;}
+div.ulLi h2{
+    font-size: 19px;
+    font-family: arial;
+    margin-top: 20px;
+}
+div.ulLi p{
+    color: gray;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    margin-top: 14px;
+}
+div.ulLi a{text-decoration:none;color:#fb5200;margin-right: 22px;}
+div.ulLi i{color:#fb5200;}
+
+
+/* ========================================
+TWELVTH SECTION DESIGN END 
+=========================================*/
+
+/* ========================================
+THIRTEENTH SECTION DESIGN START 
+=========================================*/
+
+section#thirteenSection{}
+div#coverBlockClassic{width:1100px;margin:auto;background:#fb5200;padding: 29px 0px;position: relative;bottom: -69px;}
+div.coverBlock{width:330px;display:inline-block;padding-left: 33px;}
+div.coverBlock:last-Child{position:relative;left: 0;bottom: 21px;}
+
+div.coverBlock h2{
+    font-family: arial;
+    color: white;
+    margin-bottom: 17px;
+}
+
+div.coverBlock .inputBox{
+    position: relative;
+    border-radius: 100px;
+    overflow: hidden;
+    }
+
+div.coverBlock .inputBox input:first-child{
+    padding: 16px;
+    border-radius: 23px;
+    padding-right: 35px;
+	border:none;
+}
+div.coverBlock .inputBox input#inputSecond{
+    background: black;
+    color: white;
+    margin-left: -75px;
+    padding: 16px;
+    border-radius: 23px;
+    border:none;
+    padding: 17px 27px;
+}
+div.coverBlock p{
+    color: white;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: arial;
+    margin-top: 22px;
+}
+div.coverBlock ul#ulAngkorIcon{list-style:none;margin-top: 29px;}
+div.coverBlock ul#ulAngkorIcon li{display:inline-block;}
+div.coverBlock ul#ulAngkorIcon li a{
+    text-decoration:none;
+    padding: 9px; 
+    border:1px solid white;color:white;                                    border-radius:100%;
+    margin-right: 9px;
+    transition:all 0.3s;}
+div.coverBlock ul#ulAngkorIcon li a:hover{background:white;color:black;}																				  
+/* ========================================
+THIRTEENTH SECTION DESIGN END 
+=========================================*/
+
+
+/* ========================================
+FOOTER DESIGN START 
+=========================================*/
+
+
+footer{background:#1a1a1a;color:white;font-family:arial;padding-top: 66px;}
+div#dublicateBlockClassic{width:1100px;margin:auto;padding: 62px 0px;}
+div.allArea{width: 227px;display:inline-block;margin-right:43px;}
+div.allArea:last-Child{margin-right:0px;}
+div.allArea h2{
+    font-size: 21px;
+    margin-bottom: 22px;
+}
+div.allArea p{
+    color: gray;
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom: 63px;
+}
+div.allArea ul#angkorList{list-style:none;}
+div.allArea ul#angkorList li{display:inline-block;}
+div.allArea ul#angkorList li a{text-decoration:none;color: #c5c5c5;margin-right: 12px;}
+div.allArea ul#angkorList li a i{transition:all 0.5s;}
+div.allArea ul#angkorList li a i:hover{color:#fb5200;}
+
+div.floatSize{width: 167px;margin-left: 34px;}
+div.iIcon{
+    width: 21px;
+    float: left;
+    padding-top: 5px;
+}
+
+div.iIcon i{color:#fb5200;}
+
+
+div.allArea p#firstP{margin-bottom: 24px;line-height: 19px;}
+div.allArea p#secondP{margin-bottom: 19px;line-height: 19px;}
+div.allArea p#thirdP{margin-bottom: 0px;line-height: 19px;}
+
+div.allArea ul.liI{list-style:none;}
+div.allArea ul.liI li{margin-bottom: 17px;border-bottom: 1px solid #80808061;padding-bottom: 5px;font-size: 14px;}
+div.allArea ul.liI li:last-child{margin-bottom:0px;border-bottom: 0px solid #80808061;}
+div.allArea ul.liI li a:hover{color:#fb5200;}
+
+
+div.allArea ul.liI li i{color:#fb5200;margin-right: 7px;}
+div.allArea ul.liI li a{text-decoration:none;color:gray;transition:all 0.3s;}
+
+div.transparent{
+    width: 276px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+div.transparent:last-Child{margin-bottom: 0px;}
+
+div.transparent div.dhushor{
+    width: 53px;
+    text-align: center;
+    padding: 7px 3px;
+    background: #424242;
+    float: left;
+    border-radius: 5px;
+}
+div.transparent div.dhushor h3{font-size:20px;}
+div.transparent div.dhushor span{font-size: 10px;}
+div.transparent div.userComment{
+    float: right;
+    width: 190px;
+}
+div.transparent div.userComment h3{font-size: 15px;color: #9e9a9a;line-height: 21px;margin-bottom: 14px;transition:all 0.6s;}
+div.transparent div.userComment h3:hover{color:#fb5200;cursor:pointer;}
+
+div.transparent div.userComment a{text-decoration:none;color: #808080b5;font-size: 12px;margin-right: 11px;}
+div.transparent div.userComment i{margin-right:7px;}
+
+
+/* ============================================
+LAST INFORMATION ABOUT THIS WEBSITE
+============================================ */
+
+
+div#fullsize{border-top:1px solid #8080807d;padding: 38px 0px;}
+div#copyRite{width:1100px;margin:auto;margin-bottom: 14px;}
+div#copyRiteArea{
+    width: 493px;
+    float: left;
+}
+div#copyRiteArea span{font-size: 15px;color: gray;}
+div.privacy{
+    width: 565px;
+    float: right;
+}
+div.privacy ul#privacyList{list-style:none;float: right;}
+div.privacy ul#privacyList li{
+    display: inline-block;
+    padding: 0px 13px;
+}
+div.privacy ul#privacyList li a{text-decoration:none;color:gray;font-size: 15px;}
+
+
+/* ============================================
+LAST INFORMATION ABOUT THIS WEBSITE
+============================================ */
+
+
+/* ========================================
+FOOTER DESIGN END 
+=========================================*/
+
+
+
+
+
+
